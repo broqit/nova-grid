@@ -2,6 +2,7 @@
 
 namespace Nibri10\NovaGrid;
 
+use Illuminate\Http\Request;
 use Laravel\Nova\Nova;
 use Laravel\Nova\Tool;
 
