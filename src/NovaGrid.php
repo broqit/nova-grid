@@ -19,12 +19,12 @@ class NovaGrid extends Tool
     }
 
     /**
-     * Build the view that renders the navigation links for the tool.
+     * Build the menu that renders the navigation links for the tool.
      *
-     * @return void
+     * @param  \Illuminate\Http\Request  $request
+     * @return mixed
      */
-    public function renderNavigation()
-    {
-        return ;
+    public function menu(Request $request) {
+        return ;   
     }
 }
